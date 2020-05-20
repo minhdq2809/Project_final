@@ -7,12 +7,12 @@ class Slider extends React.Component {
         <div id="slide" className="carousel slide" data-ride="carousel">
           {/* Indicators */}
           <ul className="carousel-indicators">
-            <li data-target="#slide" data-slide-to={0} className />
+            <li data-target="#slide" data-slide-to={0} className="" />
             <li data-target="#slide" data-slide-to={1} className="active" />
-            <li data-target="#slide" data-slide-to={2} className />
-            <li data-target="#slide" data-slide-to={3} className />
-            <li data-target="#slide" data-slide-to={4} className />
-            <li data-target="#slide" data-slide-to={5} className />
+            <li data-target="#slide" data-slide-to={2} className="" />
+            <li data-target="#slide" data-slide-to={3} className="" />
+            <li data-target="#slide" data-slide-to={4} className="" />
+            <li data-target="#slide" data-slide-to={5} className="" />
           </ul>
           {/* The slideshow */}
           <div className="carousel-inner">
